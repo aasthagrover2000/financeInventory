@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{792CE4CC-77C6-4036-864B-9F4C7ACA651C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="financeInventory/Controllers/financeInventoryController.cs">
+    <Files>
+      <File FileName="financeInventory/Controllers/WeatherForecastController.cs" Line="8" Column="57" />
+      <File FileName="financeInventory/Program.cs" Line="21" Column="22" />
+      <File FileName="financeInventory/appsettings.json" Line="16" Column="1" />
+      <File FileName="financeInventory/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="financeInventory/Models/EmptyClass.cs" Line="5" Column="47" />
+      <File FileName="financeInventory/WeatherForecast.cs" Line="6" Column="30" />
+      <File FileName="financeInventory/Service/financeService.cs" Line="44" Column="2" />
+      <File FileName="financeInventory/Service/IFinanceService.cs" Line="22" Column="2" />
+      <File FileName="financeInventory/Concepts.txt" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.financeInventoryProject PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

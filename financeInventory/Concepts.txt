@@ -1,0 +1,21 @@
+﻿This is a basic Finance Inventory Project I created to keep track of my investments.
+
+There are four major operations (CRUD) that are implemented.
+
+
+SERVICE LAYER (Services):
+IFinanceService: This is an interface defining CRUD operations and a "FinanceInventoryAsync" method returning ALL entries in MongoDB.
+FinanceService: This is a Service implementing the IFinanceService methods:
+1. FinanceInventoryAsync: _ => true indicates parameters (in this case, filters) are irrelevant, return ALL items.
+2. 
+
+
+MODELS
+FinanceInventoryDatabaseSettings: A Settings class defining 3 variables of ConnectionString, Database name and Collection Name.
+FinanceInventory: A class defining the construct of the Finance Data stored in MongoDB. "Id" represents the key value that will be used as unique key.
+
+CONTROLLER:
+FinanceInventoryController: In this controller, we are defining 5 HTTP Methods:
+1. Get() : calls the IFinanceService -> FinanceService method: FinanceInventoryAsync and waits for response.
+2. Get(byID): 
+:Length(24) Signifies the 24 HEX digit mandated by thr ObjectId created by Mongo. 
